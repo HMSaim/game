@@ -15,6 +15,14 @@ console.log("start");
 levelUp();
 }
 })
+document.addEventListener("click",function(){
+    if(start==false){
+start=true;
+console.log("start");
+
+levelUp();
+}
+})
 
 function btnFlash(btn){
     

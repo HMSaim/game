@@ -7,21 +7,24 @@ body{
     padding: 2vw;
     text-align: center;
 }
+h3{
+    position: relative;
+    height: 45px;
+}
 .box-container{
-    margin-top: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2vw;
     
 
 }
 
 .btn{
     cursor: pointer;
+    margin-bottom: 0.5vw;
     margin: 1.3vw;
-    height: 15vw;
-    width: 20vw;
+    height: 200px;
+    width: 200px;
     border: 10px solid black;
     border-radius: 10px;
 }
@@ -46,8 +49,8 @@ body{
 @media (max-width:480px) {
     
     .btn{
-        height: 25vw;
-        width: 30vw;
+        height: 160px;
+        width: 160px;
         border: 8px solid black;
         
     }
