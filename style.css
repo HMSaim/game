@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    padding: 2vw;
+    text-align: center;
+}
+.box-container{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    
+
+}
+
+.btn{
+    cursor: pointer;
+    margin: 1.3vw;
+    height: 15vw;
+    width: 20vw;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color:green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color:rgba(0, 0, 0, 0.199);
+}
+@media (max-width:480px) {
+    
+    .btn{
+        height: 25vw;
+        width: 30vw;
+        border: 8px solid black;
+        
+    }
+}
