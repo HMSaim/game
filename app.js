@@ -15,7 +15,7 @@ console.log("start");
 levelUp();
 }
 })
-document.addEventListener("click",function(){
+document.addEventListener("dblclick",function(){
     if(start==false){
 start=true;
 console.log("start");
@@ -62,7 +62,7 @@ if(userGuse.length == gause.length){
 }
 }
 else{
-    h3.innerHTML=`Game over <b> level ${level}</b> <br>press any key to start`;
+    h3.innerHTML=`Game over <b> level ${level}</b> (Double tap/press<br> any key to start)`;
     let a=level;
     
     arr.push(a);
